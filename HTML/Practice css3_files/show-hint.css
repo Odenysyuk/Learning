@@ -1,0 +1,29 @@
+.CodeMirror-hints {
+    position: absolute;
+    z-index: 9999;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+    background: white;
+    font-size: 90%;
+    font-family: monospace;
+    max-height: 20em;
+    overflow-y: auto;
+}
+
+.CodeMirror-hint {
+    margin: 0;
+    padding: 0 4px;
+    max-width: 19em;
+    overflow: hidden;
+    white-space: pre;
+    color: black;
+    cursor: pointer;
+}
+
+.CodeMirror-hint-active {
+    background: #08f;
+    color: white;
+}
