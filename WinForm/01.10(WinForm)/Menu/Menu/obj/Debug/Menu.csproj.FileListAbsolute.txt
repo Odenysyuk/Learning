@@ -1,0 +1,9 @@
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\bin\Debug\Menu.exe.config
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\bin\Debug\Menu.exe
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\bin\Debug\Menu.pdb
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\obj\Debug\Menu.Menu.resources
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\obj\Debug\Menu.Properties.Resources.resources
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.Cache
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\obj\Debug\Menu.exe
+D:\GIT\ADO.NET\Itstep\01.10(WinForm)\Menu\Menu\obj\Debug\Menu.pdb

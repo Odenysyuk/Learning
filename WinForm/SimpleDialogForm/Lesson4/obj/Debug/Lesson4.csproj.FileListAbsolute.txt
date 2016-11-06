@@ -1,0 +1,11 @@
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\bin\Debug\Lesson4.exe.config
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\bin\Debug\Lesson4.exe
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\bin\Debug\Lesson4.pdb
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.Form1.resources
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.Properties.Resources.resources
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.Setup.resources
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.csproj.GenerateResource.Cache
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.exe
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.pdb
+C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.SetupAll.resources

@@ -1,0 +1,8 @@
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\bin\Debug\Task2.exe.config
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\bin\Debug\Task2.exe
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\bin\Debug\Task2.pdb
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\obj\Debug\Task2.Form1.resources
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\obj\Debug\Task2.Properties.Resources.resources
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\obj\Debug\Task2.csproj.GenerateResource.Cache
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\obj\Debug\Task2.exe
+D:\GIT\ADO.NET\Itstep\04.09\Task2\Task2\obj\Debug\Task2.pdb

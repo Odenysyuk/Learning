@@ -1,0 +1,9 @@
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\bin\Debug\Race.exe.config
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\bin\Debug\Race.exe
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\bin\Debug\Race.pdb
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\obj\Debug\Race.Form1.resources
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\obj\Debug\Race.Properties.Resources.resources
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\obj\Debug\Race.csproj.GenerateResource.Cache
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\obj\Debug\Race.exe
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\obj\Debug\Race.pdb
+D:\GIT\ADO.NET\Itstep\RaceButton\Race\Race\obj\Debug\Race.csprojResolveAssemblyReference.cache

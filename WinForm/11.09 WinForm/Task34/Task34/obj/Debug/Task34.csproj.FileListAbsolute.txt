@@ -1,0 +1,9 @@
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\bin\Debug\Task34.exe.config
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\obj\Debug\Task34.csprojResolveAssemblyReference.cache
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\obj\Debug\Task34.Form1.resources
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\obj\Debug\Task34.Properties.Resources.resources
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\obj\Debug\Task34.csproj.GenerateResource.Cache
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\bin\Debug\Task34.exe
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\bin\Debug\Task34.pdb
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\obj\Debug\Task34.exe
+D:\GIT\ADO.NET\Itstep\11.09 WinForm\Task34\Task34\obj\Debug\Task34.pdb
