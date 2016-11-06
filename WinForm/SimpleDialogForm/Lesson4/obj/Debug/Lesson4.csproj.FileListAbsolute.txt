@@ -9,3 +9,14 @@ C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.csproj.Generate
 C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.exe
 C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.pdb
 C:\Users\user.STEP.001\Desktop\Lesson4\Lesson4\obj\Debug\Lesson4.SetupAll.resources
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\bin\Debug\Lesson4.exe.config
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.exe
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.pdb
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\bin\Debug\Lesson4.exe
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\bin\Debug\Lesson4.pdb
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.csprojResolveAssemblyReference.cache
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.SetupAll.resources
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.Form1.resources
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.Properties.Resources.resources
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.Setup.resources
+D:\GIT\Leaning\WinForm\SimpleDialogForm\Lesson4\obj\Debug\Lesson4.csproj.GenerateResource.Cache
