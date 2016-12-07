@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable", "Variable\Variab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassString", "ClassString\ClassString.csproj", "{757D5EFE-4135-4AB1-B60B-2A272D750473}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasStringBuilder", "StringBuilder\ClasStringBuilder.csproj", "{89473883-58CA-48FD-AF4F-6092B94F8F0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{757D5EFE-4135-4AB1-B60B-2A272D750473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{757D5EFE-4135-4AB1-B60B-2A272D750473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{757D5EFE-4135-4AB1-B60B-2A272D750473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89473883-58CA-48FD-AF4F-6092B94F8F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89473883-58CA-48FD-AF4F-6092B94F8F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89473883-58CA-48FD-AF4F-6092B94F8F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89473883-58CA-48FD-AF4F-6092B94F8F0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
