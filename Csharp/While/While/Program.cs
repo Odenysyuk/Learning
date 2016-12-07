@@ -10,13 +10,12 @@ namespace While
     {
         static void Main()
         {
-            string a, b;
+            string aa, b;
 
             while (true)
             {
-                Console.Write("Enter, first numbers:");
-                a = Console.ReadLine();
-                if (a == "q")
+                aa = NewMethodToFirst();
+                if (aa == "q")
                     break;
 
                 Console.Write("Enter, second numbers:");
@@ -27,7 +26,7 @@ namespace While
 
                 try
                 {
-                    Console.WriteLine(a + " / " + b + " = " + float.Parse(a) / float.Parse(b));
+                    Console.WriteLine(aa + " / " + b + " = " + float.Parse(aa) / float.Parse(b));
                 }
                 catch
                 {
@@ -38,6 +37,14 @@ namespace While
 
 
 
+        }
+
+        private static string NewMethodToFirst()
+        {
+            string a;
+            Console.Write("Enter, first numbers:");
+            a = Console.ReadLine();
+            return a;
         }
     }
 }
