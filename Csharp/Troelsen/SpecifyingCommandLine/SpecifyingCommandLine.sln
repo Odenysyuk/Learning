@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassString", "ClassString\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasStringBuilder", "StringBuilder\ClasStringBuilder.csproj", "{89473883-58CA-48FD-AF4F-6092B94F8F0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationsAndDecisions", "IterationsAndDecisions\IterationsAndDecisions.csproj", "{99D9B4BB-C54C-4450-B477-F33374D2CBDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{89473883-58CA-48FD-AF4F-6092B94F8F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89473883-58CA-48FD-AF4F-6092B94F8F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89473883-58CA-48FD-AF4F-6092B94F8F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D9B4BB-C54C-4450-B477-F33374D2CBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D9B4BB-C54C-4450-B477-F33374D2CBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D9B4BB-C54C-4450-B477-F33374D2CBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D9B4BB-C54C-4450-B477-F33374D2CBDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
