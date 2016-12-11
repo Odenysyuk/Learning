@@ -12,6 +12,7 @@ namespace Array
         {
             SimpleArray();
             ImplicityTypeArray();
+            ArrayOfObjects();
 
         }
 
@@ -41,6 +42,7 @@ namespace Array
 
         static void ImplicityTypeArray()
         {
+            Console.WriteLine("=>Implicity typed array");
             var a = new[] { 1, 2, 3, 4, 5 };//int[]
             Console.WriteLine("a is {0}", a.ToString());
 
@@ -49,6 +51,20 @@ namespace Array
 
             var mix = new[] { (object)1, (object)"hello", (object)1.3 };
             Console.WriteLine("mix is {0}", mix.ToString());
+        }
+
+        static void ArrayOfObjects()
+        {
+            Console.WriteLine("=> Array of object:");
+
+            object[] array = new object[5]{ 1, 2.5, "Hello", false, 'a' };
+            int i = 0;
+            foreach (object item in array)
+            {
+                Console.WriteLine("array[{0}] = {1}, type is {2}", i++, item, item.GetType());
+            }
+
+
         }
 
     }
