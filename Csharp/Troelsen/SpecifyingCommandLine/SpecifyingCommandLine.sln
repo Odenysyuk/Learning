@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefTypeValTypeParams", "Ref
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTypes\NullableTypes.csproj", "{2E830763-43D8-41E1-BD23-7280A87E0029}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClassExample", "SimpleClassExample\SimpleClassExample.csproj", "{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{2E830763-43D8-41E1-BD23-7280A87E0029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E830763-43D8-41E1-BD23-7280A87E0029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E830763-43D8-41E1-BD23-7280A87E0029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
