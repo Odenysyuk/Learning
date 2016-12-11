@@ -13,6 +13,7 @@ namespace Array
             SimpleArray();
             ImplicityTypeArray();
             ArrayOfObjects();
+            RectangularMultidimensionalArray();
 
         }
 
@@ -67,5 +68,27 @@ namespace Array
 
         }
 
+        static void RectangularMultidimensionalArray()
+        {
+            Console.WriteLine("=> REctangular multidimensional arrays:");
+            int[,] matrix = new int[3, 3];
+            for (int i = 0; i< 3; i++)
+            {
+                for (int j= 0; j < 3; j++)
+                {
+                    matrix[i, j] = i * j;
+                }
+            }
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write("{0} ", matrix[i, j]);
+                }
+                Console.WriteLine();
+            }
+
+        }
     }
 }
