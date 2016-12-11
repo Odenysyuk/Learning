@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Array
+namespace nArray
 {
     class Program
     {
@@ -15,6 +15,7 @@ namespace Array
             ArrayOfObjects();
             RectangularMultidimensionalArray();
             JaggedMultidimensionalArray();
+            BaseOperationWithArray();
 
         }
 
@@ -40,6 +41,8 @@ namespace Array
             {
                 Console.WriteLine("a[{0}] = {1}", i, array1[i]);
             }
+
+            PrintStringArray(GetArrayOfString());
         }
 
         static void ImplicityTypeArray()
@@ -47,6 +50,7 @@ namespace Array
             Console.WriteLine("=>Implicity typed array");
             var a = new[] { 1, 2, 3, 4, 5 };//int[]
             Console.WriteLine("a is {0}", a.ToString());
+            PrintArray(a);
 
             var b = new[] { 1, 2, 3.0, 4, 5 };//double[]
             Console.WriteLine("b is {0}", b.ToString());
@@ -110,6 +114,59 @@ namespace Array
                 }
                 Console.WriteLine();
             }
+        }
+
+        static void PrintArray(int[] myInts)
+        {
+            foreach(int item in myInts)
+                Console.Write(" {0} ", item);
+            Console.WriteLine();
+        }
+
+        static String[] GetArrayOfString()
+        {
+            string[] temp = new string[] {"Hello", " ", "My name", "is ", "Olena" };
+            return temp;
+        }
+
+        static void PrintStringArray(String[] myStrings)
+        {
+            Console.WriteLine("=> Print array of myStrings");
+            foreach (string item in myStrings)
+                Console.Write(" {0} ", item);
+
+            Console.WriteLine();
+
+        }
+
+        static void BaseOperationWithArray()
+        {
+            Console.WriteLine();
+            Console.WriteLine("=> Member of ARRAY CLASS");
+
+            int[] temp = new int[] { 2, 5, 6, 8, 7, 1 };
+            PrintArray(temp);
+
+            Array.Reverse(temp);
+            Console.WriteLine("After reverce:");
+            PrintArray(temp);
+
+            Array.Clear(temp, 2, 1);
+            Console.WriteLine("After Array.Clear(temp, 2, 1):");
+            PrintArray(temp);
+
+            Console.WriteLine(" temp.CopyTo(temp2, 0) print:");
+            int[] temp2 = new int[6];
+            temp.CopyTo(temp2, 0);
+            PrintArray(temp2);
+
+            Console.WriteLine("Rank of temp {0}", temp.Rank);
+
+            Array.Sort(temp);
+            Console.WriteLine("Sort array:");
+            PrintArray(temp);
+
+
         }
     }
 }
