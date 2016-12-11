@@ -14,6 +14,7 @@ namespace Array
             ImplicityTypeArray();
             ArrayOfObjects();
             RectangularMultidimensionalArray();
+            JaggedMultidimensionalArray();
 
         }
 
@@ -89,6 +90,26 @@ namespace Array
                 Console.WriteLine();
             }
 
+        }
+
+        static void JaggedMultidimensionalArray()
+        {
+            Console.WriteLine("=> Jagged multidimensional array");
+
+            int[][] array = new int[5][];
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = new int[i + 7];
+            }
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                for (int j = 0; j < array[i].Length; j++)
+                {
+                    Console.Write("{0} ", array[i][j]);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
