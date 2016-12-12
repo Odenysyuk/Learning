@@ -16,6 +16,8 @@ namespace StaticDataAndMembers
            this. currBalance = balance;
         }
 
+        public static double InterestRate { get { return currInterestRate; } set { currInterestRate = value; } }
+
         static SavingAccount()
         {
             Console.WriteLine("In static ctor");
