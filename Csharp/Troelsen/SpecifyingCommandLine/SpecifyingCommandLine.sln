@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClassExample", "SimpleClassExample\SimpleClassExample.csproj", "{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDataAndMembers", "StaticDataAndMembers\StaticDataAndMembers.csproj", "{92498EA7-CE84-4FF0-AAA5-625CA21A621C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A9AFC2-B9F4-4897-91C9-046EAEDAF99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92498EA7-CE84-4FF0-AAA5-625CA21A621C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92498EA7-CE84-4FF0-AAA5-625CA21A621C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92498EA7-CE84-4FF0-AAA5-625CA21A621C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92498EA7-CE84-4FF0-AAA5-625CA21A621C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
