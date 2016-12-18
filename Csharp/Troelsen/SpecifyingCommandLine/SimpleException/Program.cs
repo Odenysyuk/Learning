@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace SimpleException
 {
@@ -48,8 +49,15 @@ namespace SimpleException
                 {
                     Console.WriteLine("{0} has overheated!", PetName);
                     CurrentSpeed = 0;        // carIsDead = true;
-                    // Use the "throw" keyword to raise an exception.       
-                    throw new Exception(string.Format("{0} has overheated!", PetName));
+                                             // Use the "throw" keyword to raise an exception.       
+                    Exception ex = new Exception(string.Format("{0} has overheated!", PetName));
+                    ex.HelpLink = @"http://www.CarsRUs.com";
+
+                    // Stuff in custom data regarding the error.      
+                    ex.Data.Add("TimeStamp",       
+                        string.Format("The car exploded at {0}", DateTime.Now));      
+                    ex.Data.Add("Cause", "You have a lead foot.");
+                    throw ex;
                 }
                 else
                     Console.WriteLine("=> CurrentSpeed = {0}", CurrentSpeed);
@@ -80,6 +88,11 @@ namespace SimpleException
                 Console.WriteLine("Massage: {0}", e.Message);
                 Console.WriteLine("Source: {0}", e.Source);
                 Console.WriteLine("Stack: {0}", e.StackTrace);
+                Console.WriteLine("\n-> Custom Data:");
+                if (e.Data != null) {
+                    foreach (DictionaryEntry de in e.Data)
+                        Console.WriteLine("-> {0}: {1}", de.Key, de.Value);
+                }
 
             }
             Console.WriteLine("\n***** Out of exception logic *****");
