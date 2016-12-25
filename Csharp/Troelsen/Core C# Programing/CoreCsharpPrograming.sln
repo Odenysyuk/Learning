@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "CustomEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessMultipleExceptions", "ProcessMultipleExceptions\ProcessMultipleExceptions.csproj", "{1C456F58-3BDD-4EEF-AA7F-AFBCB560568E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_ICloneableExample", "8_ICloneableExample\8_ICloneableExample.csproj", "{642D1723-8B96-438B-9D60-199F8321044C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_CustomInterface", "8_CustomInterface\8_CustomInterface.csproj", "{2EC0CAAE-1902-4681-B705-EBFC00F33A04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{1C456F58-3BDD-4EEF-AA7F-AFBCB560568E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C456F58-3BDD-4EEF-AA7F-AFBCB560568E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C456F58-3BDD-4EEF-AA7F-AFBCB560568E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642D1723-8B96-438B-9D60-199F8321044C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642D1723-8B96-438B-9D60-199F8321044C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642D1723-8B96-438B-9D60-199F8321044C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642D1723-8B96-438B-9D60-199F8321044C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC0CAAE-1902-4681-B705-EBFC00F33A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC0CAAE-1902-4681-B705-EBFC00F33A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC0CAAE-1902-4681-B705-EBFC00F33A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC0CAAE-1902-4681-B705-EBFC00F33A04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
