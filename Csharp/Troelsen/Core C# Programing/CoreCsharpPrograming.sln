@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_CustomEnumerator", "8_Cus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_CustomEnumeratorWithYield", "8_CustomEnumeratorWithYield\8_CustomEnumeratorWithYield.csproj", "{7BCDADAC-BB56-40F6-A4D4-FF10DF28B059}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_CloneablePoint", "8_CloneablePoint\8_CloneablePoint.csproj", "{0F08B934-E0EB-46B2-B559-87C81EFAF3A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{7BCDADAC-BB56-40F6-A4D4-FF10DF28B059}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BCDADAC-BB56-40F6-A4D4-FF10DF28B059}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BCDADAC-BB56-40F6-A4D4-FF10DF28B059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F08B934-E0EB-46B2-B559-87C81EFAF3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F08B934-E0EB-46B2-B559-87C81EFAF3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F08B934-E0EB-46B2-B559-87C81EFAF3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F08B934-E0EB-46B2-B559-87C81EFAF3A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
