@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_9_IssuesWithNonGeneriCollections", "Advanced\_9_IssuesWithNonGeneriCollections.csproj", "{EF33BA42-88BA-4893-A849-19D35937ECE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_IssuesWithNonGeneriCollections", "Advanced\9_IssuesWithNonGeneriCollections.csproj", "{EF33BA42-88BA-4893-A849-19D35937ECE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_FunWithGenericCollections", "9_FunWithGenericCollections\9_FunWithGenericCollections.csproj", "{72F3A5AA-EC3F-4A19-893F-5C72DB37D5D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_FunWithObservableCollection", "9_FunWithObservableCollection\9_FunWithObservableCollection.csproj", "{3F487BF9-D386-46AA-AF52-475C73CC0145}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_CustomGenericMethods", "9_CustomGenericMethods\9_CustomGenericMethods.csproj", "{DF9348F4-62F0-4A41-9170-AD560BA752BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_SimpleDelegate", "10_SimpleDelegate\10_SimpleDelegate.csproj", "{EF9CCBC6-FF7B-4E1A-8AEF-E9E998C23A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CarDelegate", "10_CarDelegate\10_CarDelegate.csproj", "{DD56FA44-8824-4F01-87FE-03EAB16345B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CarDelegateMethodGroupConversion", "10_CarDelegateMethodGroupConversion\10_CarDelegateMethodGroupConversion.csproj", "{C711490A-FB54-49C4-99FC-2667CA20F495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_GenericDelegate", "10_GenericDelegate\10_GenericDelegate.csproj", "{078D992B-5651-48B5-8573-D91052A74401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{DF9348F4-62F0-4A41-9170-AD560BA752BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF9348F4-62F0-4A41-9170-AD560BA752BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF9348F4-62F0-4A41-9170-AD560BA752BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9CCBC6-FF7B-4E1A-8AEF-E9E998C23A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9CCBC6-FF7B-4E1A-8AEF-E9E998C23A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9CCBC6-FF7B-4E1A-8AEF-E9E998C23A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9CCBC6-FF7B-4E1A-8AEF-E9E998C23A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD56FA44-8824-4F01-87FE-03EAB16345B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD56FA44-8824-4F01-87FE-03EAB16345B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD56FA44-8824-4F01-87FE-03EAB16345B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD56FA44-8824-4F01-87FE-03EAB16345B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C711490A-FB54-49C4-99FC-2667CA20F495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C711490A-FB54-49C4-99FC-2667CA20F495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C711490A-FB54-49C4-99FC-2667CA20F495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C711490A-FB54-49C4-99FC-2667CA20F495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078D992B-5651-48B5-8573-D91052A74401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078D992B-5651-48B5-8573-D91052A74401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078D992B-5651-48B5-8573-D91052A74401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078D992B-5651-48B5-8573-D91052A74401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
