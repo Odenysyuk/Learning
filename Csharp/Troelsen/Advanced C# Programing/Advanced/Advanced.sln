@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_GenericDelegate", "10_Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_ActionAndFuncDelegates", "10_ActionAndFuncDelegates\10_ActionAndFuncDelegates.csproj", "{076DFE3F-59DC-4672-ABCC-3F46D91D96BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CarEngineHandler", "10_CarEngineHandler\10_CarEngineHandler.csproj", "{4459C907-15AB-44B1-9C15-5A6171C31995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{076DFE3F-59DC-4672-ABCC-3F46D91D96BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{076DFE3F-59DC-4672-ABCC-3F46D91D96BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{076DFE3F-59DC-4672-ABCC-3F46D91D96BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4459C907-15AB-44B1-9C15-5A6171C31995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4459C907-15AB-44B1-9C15-5A6171C31995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4459C907-15AB-44B1-9C15-5A6171C31995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4459C907-15AB-44B1-9C15-5A6171C31995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
