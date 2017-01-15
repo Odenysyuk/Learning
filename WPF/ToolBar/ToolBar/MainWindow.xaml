@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolBar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="350" Width="500">
+    
+    
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">            
+            <ToolBar>
+                <Menu>
+                    <MenuItem Header="File">
+                        <MenuItem Header="New" Click="MenuItemNew_Click"/>
+                        <MenuItem Header="Open" Click="MenuItemOpen_Click"/>
+                        <MenuItem Header="Save" Click="MenuItemSave_Click"/>
+                        <MenuItem Header="Save as" Click="MenuItemSaveAs_Click"/>
+                        <MenuItem Header="Exit" Click="MenuItemExit_Click"/>
+                    </MenuItem>
+                    <MenuItem Header="Edit">
+                        <MenuItem Header="Undo"     Click="MenuItem_Undo"/>
+                        <MenuItem Header="Redo"     Click="MenuItem_Redo"/>
+                        <MenuItem Header="Copy"     Click="MenuItem_Copy"/>
+                        <MenuItem Header="Cut"      Click="MenuItem_Cut"/>
+                        <MenuItem Header="Paste"    Click="MenuItem_Paste"/>
+                    </MenuItem>
+                    <MenuItem Header="View">
+                        <MenuItem Header=""/>
+                    </MenuItem>
+                    <MenuItem Header="Help" Click="MenuItem_Help">
+                        <MenuItem Header="About redactor"/>
+                    </MenuItem>
+                </Menu>  
+            </ToolBar>
+        </ToolBarTray>
+        <TabControl Name="tabDynamic" ItemsSource="{Binding}" SelectionChanged="tabDynamic_SelectionChanged">
+            <TabControl.Resources>
+                <DataTemplate x:Key="TabHeader" DataType="TabItem">
+                    <DockPanel>
+                        <Button Name="btnDelete" DockPanel.Dock="Right" Margin="5,0,0,0" Padding="0" Click="btnDelete_Click" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type TabItem}}, Path=Name}">
+                            <Image Source="E:\GIT\Learning\WPF\ToolBar\ToolBar\delete.png" Height="11" Width="11"></Image>
+                        </Button>
+                        <TextBlock Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type TabItem}}, Path=Header}" />
+                    </DockPanel>
+                </DataTemplate>
+                <Style TargetType="TextBox">
+                    <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+                    <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+                    <Setter Property="AcceptsReturn" Value="True"></Setter>
+                    <Setter Property="TextWrapping" Value="WrapWithOverflow"></Setter>
+                    <Setter Property="MaxLines" Value="5000"></Setter>
+                    <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"></Setter>
+                    <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"></Setter>
+                </Style>
+            </TabControl.Resources>
+        </TabControl>
+    </DockPanel>
 </Window>

@@ -11,8 +11,17 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        
-        
-        
+        <RichTextBox Name="RichBox1" Grid.Column="0">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+
+                
+            </FlowDocument>
+        </RichTextBox>
+
+
+
     </Grid>
 </Window>
