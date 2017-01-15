@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Containers", "Containers\Containers.csproj", "{70FE2F08-1580-4F04-BAE3-F83C69D4C36C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithContainer", "WorkingWithContainer\WorkingWithContainer.csproj", "{BF15F694-2FF0-4AE1-BA1B-296C55AABA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithImage", "WorkingWithImage\WorkingWithImage.csproj", "{0C51244E-0739-4466-B30A-1CBB120713B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{F37C5D53-EA3F-45F4-A3B7-0314AB7E0F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{BF15F694-2FF0-4AE1-BA1B-296C55AABA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF15F694-2FF0-4AE1-BA1B-296C55AABA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF15F694-2FF0-4AE1-BA1B-296C55AABA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C51244E-0739-4466-B30A-1CBB120713B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C51244E-0739-4466-B30A-1CBB120713B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C51244E-0739-4466-B30A-1CBB120713B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C51244E-0739-4466-B30A-1CBB120713B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37C5D53-EA3F-45F4-A3B7-0314AB7E0F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37C5D53-EA3F-45F4-A3B7-0314AB7E0F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37C5D53-EA3F-45F4-A3B7-0314AB7E0F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37C5D53-EA3F-45F4-A3B7-0314AB7E0F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
